@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: configmap-blue
-  namespace: default
+  namespace: flag
 data:
   show_button: "FALSE"
 
