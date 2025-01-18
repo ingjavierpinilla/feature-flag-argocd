@@ -24,3 +24,4 @@ spec:
         - configMapRef:
             name: configmap-blue
 #kubectl rollout restart deployment my-app-blue   
+#k get secret argocd-initial-admin-secret -n argocd -o yaml
