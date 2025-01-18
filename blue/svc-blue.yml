@@ -4,7 +4,7 @@ metadata:
   name: nginx
   annotations:
     service.beta.kubernetes.io/do-loadbalancer-size-unit: "3"
-    service.beta.kubernetes.io/do-loadbalancer-disable-lets-encrypt-dns-records: "false"
+    service.beta.kubernetes.io/do-loadbalancer-disable-lets-encrypt-dns-records: "true"
 spec:
   type: LoadBalancer
   selector:
