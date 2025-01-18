@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ingjavierpinilla/feature-flag-argocd
     targetRevision: HEAD
-    path: dev
+    path: blue
   destination:
     server: https://kubernetes.default.svc
     namespace: flag
