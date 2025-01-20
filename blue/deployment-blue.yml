@@ -23,5 +23,6 @@ spec:
         envFrom:
         - configMapRef:
             name: configmap-blue
-#kubectl rollout restart deployment my-app-blue   
+#k port-forward svc/argocd-server -n argocd 8080:443
+#k rollout restart deployment my-app-blue   
 #k get secret argocd-initial-admin-secret -n argocd -o yaml
